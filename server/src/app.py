@@ -1,3 +1,4 @@
+import os
 from flask import Flask, make_response, request, redirect
 import json
 from flask_cors import CORS
@@ -6,8 +7,8 @@ from numpy import empty
 # import requests
 # from .socketConfigFxcm.main import *
 
-from src.analyzerTypes.Fibonacci_Sequence import main_pat
-from src.analyzerTypes.machine_learning import main_ml
+from analyzerTypes.Fibonacci_Sequence import main_pat
+from analyzerTypes.machine_learning import main_ml
 
 _redirectURl = 'https://www.tahaalmokahel.com/projects/analyzer'
 
@@ -108,7 +109,7 @@ def page_not_found(error):
 
 
 if __name__ == '__main__':
-  app.run(debug=True, host='0.0.0.0')
+  app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
   # app.run(debug=True)
   # main()
   # app.run()
