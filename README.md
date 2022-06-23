@@ -1,4 +1,5 @@
 # analyzer-fxcm-flask
+### Back-End Side
 
 Project developed by Python Flask. Can visit project page from >>> [***here***](https://analyzer-project-4faaf.web.app/projects/analyzer) <<<
 
