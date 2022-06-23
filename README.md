@@ -1,6 +1,8 @@
 # analyzer-fxcm-flask
 
-Project developed by Python Flask. Can visit project page from [***here***](https://analyzer-project-4faaf.web.app/projects/analyzer) 
+Project developed by Python Flask. Can visit project page from >>> [***here***](https://analyzer-project-4faaf.web.app/projects/analyzer) <<<
+
+Can also see [Front-End Source Code](https://github.com/TahaGitHub/analyzer-fxcm-front-end-react) that built in 'React js'.
 
 Project use two type in analysing the currency:
 
